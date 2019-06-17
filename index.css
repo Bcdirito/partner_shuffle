@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://reshmasaujani.com/wp-content/uploads/RS-BANNER-IMAGE-GIRLS.jpg");
+    background-position: top;
+    background-size: 100%;
+}
+
+#bodyContent {
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-family: 'Montserrat', sans-serif;
+    height: 80vh;
+    overflow: scroll;
+    text-align: center;
+    width: 65vw;
+}
