@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", function(){
-    const students = ["Brian DiRito", "Nic Casaula", "Marty Glyer", "Kate Turner", "Mike Walsh", "Alex Kidder", "Alex Domini", "Matt Dain", "Raye Lederman", "Danny Wilfred", "Jon Friestedt"]
+    const students = ['Sheleeza Haniff', 'Angelika Puran', 'Sandra Shefter', 'Marwa Elassa', 'Loren Ocampo', 'Indira Rivera', 'Hareem Chaudhry', 'Amandine Soho', 'Bridget Williams', 'Nzingha Mutakabbir', 'Jada Johnson', 'Rishika Bandamede', 'Kayla Blue', 'Caroline Tew', 'Natalya Gonzalez', 'Krishna Chauhan', 'Hajar Murray', 'Caroline Vivanco', 'Gabriela Ors', 'Abigale Chase', 'Kristin Salvacion']
 
     const setDateHeader = () => {
         const today = new Date()
