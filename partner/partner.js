@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", function(){
 
     const setDateHeader = () => {
         const today = new Date()
-        document.getElementsByClassName("today")[0].innerHTML = `Partners for ${today.getMonth()}/${today.getDate()}/${today.getFullYear()}`
+        document.getElementsByClassName("today")[0].innerHTML = `Partners for ${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`
     }
 
     const shuffleStudents = (stdns) => {
