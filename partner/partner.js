@@ -6,16 +6,16 @@ window.addEventListener("DOMContentLoaded", function(){
         document.getElementsByClassName("today")[0].innerHTML = `Partners for ${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`
     }
 
-    const shuffleStudents = (stdns) => {
-        let shuffledStudents = []
-
-        while (shuffledStudents.length < stdns.length){
-            let randomStud = stdns[Math.floor(Math.random() * stdns.length)]
-            if (!shuffledStudents.includes(randomStud)) shuffledStudents.push(randomStud)
-        }
-
-        displayPairings(shuffledStudents)
-    }
+    // const shuffleStudents = (stdns) => {
+    //     let shuffledStudents = []
+    //
+    //     while (shuffledStudents.length < stdns.length){
+    //         let randomStud = stdns[Math.floor(Math.random() * stdns.length)]
+    //         if (!shuffledStudents.includes(randomStud)) shuffledStudents.push(randomStud)
+    //     }
+    //
+    //     displayPairings(shuffledStudents)
+    // }
 
     const displayPairings = (shuffStudents) => {
         let pairingDiv = document.getElementsByClassName("pairings")[0]
@@ -26,5 +26,5 @@ window.addEventListener("DOMContentLoaded", function(){
     }
 
     setDateHeader()
-    shuffleStudents(students)
+    displayPairings(students)
 })
